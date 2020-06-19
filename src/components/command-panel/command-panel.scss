@@ -1,0 +1,13 @@
+@import "../../common/assets/variable.scss";
+
+.command-panel-component{
+    padding-top: 8px;
+    span{
+        font-size: 15px;
+        cursor: pointer;
+        color: $light-blue-color;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

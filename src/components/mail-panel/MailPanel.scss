@@ -1,0 +1,27 @@
+@import "../../common/assets/variable.scss";
+
+.mail-panel-component {
+    height: 100%;
+    .command-panel {
+        min-height: $command-line-height;
+        max-height: $command-line-height;
+        background-color: $folder-search-box-bg-color;
+        padding-left: 20px;
+    }
+    .mail-container {
+        height: 100%;
+        .preview-panel {
+            height: 100%;
+            min-width: $mail-preview-min-width;
+            max-width: $mail-preview-max-width;
+            border-right: 1px solid $light-gray-color-1;
+            overflow: auto;
+            background-color: $light-gray-color-2;
+        }
+        .detail-panel {
+            height: 100%;
+            min-width: $mail-detail-min-width;
+            overflow: auto;
+        }
+    }
+}

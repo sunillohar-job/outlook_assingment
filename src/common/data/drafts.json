@@ -1,0 +1,14 @@
+[
+    {
+        "mId": "Mail-5",
+        "unread": true,
+        "subject": "draft 5",
+        "content": "Congratulations ! <u>Credit card<u> is being shipped to you today!"
+    },
+    {
+        "mId": "Mail-6",
+        "unread": true,
+        "subject": "draft 6",
+        "content": "You have just won the New York official lottery. Please send us your address so that we may start the transfer."
+    }
+]
