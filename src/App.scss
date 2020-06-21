@@ -1,0 +1,22 @@
+@import "./common//assets/variable.scss";
+
+.page-container {
+  height: 100vh;
+  min-width: $view-port-min-width;
+  main {
+    min-height: 0;
+    .content-container {
+      height: 100%;
+      .navigation-panel {
+        height: 100%;
+        background-color: $light-gray-color-1;
+        min-width: $navigation-min-width;
+        overflow: auto;
+        border-right: 1px solid $folder-hover-color;
+      }
+      .mail-panel {
+        height: 100%;
+      }
+    }
+  }
+}
